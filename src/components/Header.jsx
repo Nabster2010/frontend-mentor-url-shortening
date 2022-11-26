@@ -5,7 +5,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header className="relative ">
-      <div className="mx-4 my-6 flex md:gap-6 justify-between md:justify-start items-center md:mx-16">
+      <div className="mx-4 my-6 flex md:gap-6 justify-between md:justify-start items-center md:mx-28">
         <a href="/">
           <img src={logo} alt="" className="max-w-none" />
         </a>

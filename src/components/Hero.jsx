@@ -1,7 +1,7 @@
 import heroImg from "/images/illustration-working.svg";
 const Hero = () => {
   return (
-    <section className="mt-8 md:mt-16 mb-20 md:ml-16 flex flex-col md:justify-center md:items-center md:flex-row-reverse md:gap-8 ">
+    <section className="mt-8 md:mt-16 mb-20 md:ml-28 flex flex-col md:justify-center md:items-center md:flex-row-reverse md:gap-8 ">
       <div className="overflow-hidden  md:flex-1">
         <img src={heroImg} alt="" className="ml-8 md:ml-16 object-cover " />
       </div>

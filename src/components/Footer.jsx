@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-VeryDarkViolet">
-      <footer className="pt-10 pb-8 md:mx-16  md:grid md:grid-cols-6 justify-between md:items-start justify-items-start">
+      <footer className="pt-10 pb-8 md:mx-28  md:grid md:grid-cols-6 justify-between md:items-start justify-items-start">
         <div className=" flex flex-col justify-center items-center  col-span-2">
           <a href="/" className="text-white font-bold text-2xl tracking-wide">
             Shortly

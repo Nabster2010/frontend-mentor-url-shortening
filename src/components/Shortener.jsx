@@ -16,7 +16,7 @@ const Shortener = ({ shortenUrl, errorMsg, setErrorMsg }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="relative md:flex  md:items-start md:gap-6 mt-36 -top-20 md:-top-12 mx-6  md:mx-16 bg-DarkViolet p-6 md:p-8 rounded-lg md:space-y-0 space-y-4 md:bg-[url('/images/bg-shorten-desktop.svg')] bg-[url('/images/bg-shorten-mobile.svg')] bg-no-repeat bg-right-top"
+      className="relative md:flex  md:items-start md:gap-6 mt-36 -top-20 md:-top-12 mx-6  md:mx-28 bg-DarkViolet p-6 md:p-8 rounded-lg md:space-y-0 space-y-4 md:bg-[url('/images/bg-shorten-desktop.svg')] bg-[url('/images/bg-shorten-mobile.svg')] bg-no-repeat bg-right-top"
     >
       <div className="md:flex-1">
         <input
